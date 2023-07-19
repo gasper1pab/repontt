@@ -24,6 +24,10 @@ describe('nttdapabloarteaga', () => {
       // Visualizar el carrito
       cy.get('.shopping_cart_badge').click()
       
+      //validacion de los 2 productos dentro del carrito
+      cy.contains('Sauce Labs Backpack')  
+      cy.contains('Sauce Labs Bike Light') 
+
       // Completar el formulario de compra
       cy.get('[data-test="checkout"]').click()
 
@@ -32,7 +36,7 @@ describe('nttdapabloarteaga', () => {
       cy.get('[data-test="postalCode"]').type('ec1234')
       cy.get('[data-test="continue"]').click()
       cy.get('[data-test="finish"]').click()
-      
+      cy.log('parte 1')
      
     })
       
@@ -41,6 +45,7 @@ describe('nttdapabloarteaga', () => {
       {   
         // Finalizar la compra hasta la confirmación: “THANK YOU FOR YOUR ORDER”
         cy.contains('Thank you for your order!')  
+        cy.log('Validacioon completa')
 
     })
     
