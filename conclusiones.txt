@@ -1,0 +1,4 @@
+Hallazgos y conclusiones 
+Se adjunta video sacado al correr la prueba en cypress
+Al hacer en varias iteraciones para cada caso solicitado, luego de seleccionar los 2 productos requeridos, se pierde el login, por lo que se procedió a crear en una sola iteración los pasos solicitados y en otra iteración el ultimo paso con la validación de finalización de compra
+No se agrego pausar en cada prueba ya que no son necesarios porque la página responde con rapidez en cada consulta
