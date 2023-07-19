@@ -6,6 +6,7 @@
 
 
 2. Comandos de instalación
+Para instalacion de visual code, ir a la pagina https://code.visualstudio.com/
 Para uso de cypress, se puede seguir la guía : https://docs.cypress.io/guides/getting-started/installing-cypress
 
 
